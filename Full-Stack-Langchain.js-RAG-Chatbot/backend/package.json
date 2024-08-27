@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@langchain/community": "^0.2.20",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "langchain": "^0.2.11",
+    "nodemon": "^3.1.4",
+    "openai": "^4.53.2",
+    "pdf-parse": "^1.1.1"
+  },
+  "name": "skymod-rag-app",
+  "description": "This project is an assessment for the Junior Software Developer position at Skymod Technology. Our aim is to evaluate skills in creating a RAG (Retrieval-Augmented Generation) system.",
+  "version": "1.0.0",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
