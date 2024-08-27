@@ -1,0 +1,30 @@
+body {
+    background-color: #eee;
+}
+
+.custom-bg-color{
+    background-color: #76b2ba;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+#video2 {
+    position: absolute;
+    right: 15px;
+    top: 25%;
+}
+
+#div-video {
+    position: relative;
+}
+
+.words {
+    background: rgba(7, 5, 4, 0.384);
+    color: whitesmoke;
+}

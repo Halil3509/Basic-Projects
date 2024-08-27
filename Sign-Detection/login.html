@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Giriş Yap | Unimpeded Video Conferance</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/main.css'>
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex align-items-center justify-content-center h-100">
+                <div class="col-md-8 col-lg-7 col-xl-6 text-center">
+                    <img src="assets/images/logo.PNG" class="img-fluid" alt="UVC">
+                </div>
+                <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1 d-grid">
+
+                    <div id="error" class="text-danger"></div>
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="username" class="form-control form-control-lg" placeholder="E-Posta" />
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="password" class="form-control form-control-lg" placeholder="Şifre" />
+                    </div>
+
+
+                    <!-- Submit button -->
+                    <button type="submit" id="btn-girisyap" class="btn btn-primary btn-lg btn-block">Giriş Yap</button>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-grid gap-2">
+                        <button type="button" id="installApp" class="btn btn-sm btn-success">Uygulamayı İndir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src='assets/scripts/login.js?v5'></script>
+
+</body>
+
+</html>
